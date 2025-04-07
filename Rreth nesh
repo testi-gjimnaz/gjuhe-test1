@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rreth Nesh - Klasa 12/5</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('klasa 12-5 ini.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: 1px 1px 3px black;
+      padding-top: 60px; /* lë vend për navbar */
+    }
+
+    /* 🔝 Navbar - shiriti lart */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 30px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      z-index: 999;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffcccb;
+    }
+
+    /* 🧾 Kutia e përmbajtjes */
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: 40px auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔝 Navbar -->
+  <div class="navbar">
+    <a href="index.html">🏠 Faqja Kryesore</a>
+    <a href="rreth-nesh.html">📖 Rreth Nesh</a>
+    <a href="testo-veten.html">🧠 Testo Veten</a>
+    <a href="gjuhe-letersi.html">📚 Gjuhë & Letërsi</a>
+    <a href="kontakt.html">📞 Kontakt</a>
+  </div>
+
+  <!-- 📝 Përmbajtja -->
+  <div class="content">
+    <h1>Rreth Nesh</h1>
+
+    <p><strong>Kush jemi ne?</strong><br>
+    Ne jemi klasa 12/5, një grup nxënësish të përkushtuar, energjikë dhe të gatshëm për t’u bërë pjesë e të ardhmes!<br><br>
+
+    Në këtë vit të fundit, ne po e jetojmë çdo ditë si një mundësi për të dhënë më të mirën tonë, për të mësuar dhe për të krijuar kujtime që do na shoqërojnë përjetë. Po përgatitemi për maturën, por edhe për gjithçka që do të vijë pas saj.</p>
+
+    <p><strong>Duke folur për udhëheqësin tonë...</strong><br>
+    Një person i jashtëzakonshëm që është gjithmonë aty për ne, është mësuesja jonë kujdestare, Maralba Reka. Ajo është më shumë se një mësuese për ne – është një udhërrëfyes që na ndihmon të kalojmë çdo sfidë dhe të shohim mundësi aty ku të tjerët mund të shohin pengesa.</p>
+
+    <p>Përveç kësaj, ky projekt është po ashtu nën kujdesin e mësueses sonë të letërsisë, Jolanda Biba, e cila ka qenë gjithmonë një burim frymëzimi për ne. Me pasionin e saj për letërsinë dhe me aftësinë e saj të jashtëzakonshme për të na udhëhequr në botën e fjalës dhe imagjinatës, mësuesja Biba ka ndihmuar që ky projekt të zhvillohet me përkushtim dhe shumë kreativitet.</p>
+
+    <p><strong>Çfarë na bën të veçantë?</strong><br>
+    Ne jemi një grup që punon së bashku, që ndihmon njëri-tjetrin dhe që ka një pasion të përbashkët: të arrijmë suksesin, por gjithashtu të krijojmë momente të paharrueshme gjatë këtij udhëtimi.</p>
+
+    <p>Jemi një klasë që i sheh sfidat si mundësi për të mësuar dhe për t'u rritur. Të gjithë bashkë, përballojmë provimet, detyrat, dhe çdo ngarkesë me besim dhe humor.</p>
+
+    <p><strong>Në fund...</strong><br>
+    Ne po shkruajmë kapitullin tonë të fundit në këtë rrugëtim shkollor, dhe mësuesja Maralba është aty për të na ndihmuar të shkëlqejmë, si individë dhe si grup. Po ashtu, mësuesja Jolanda Biba ka dhënë një kontribut të çmuar për këtë projekt, duke e bërë atë më të pasur dhe më tërheqës. Kjo klasë është më shumë sesa një numër – është një familje që mbështetet dhe ndihmon çdo anëtar të saj të arrijë ëndrrat e tij!</p>
+
+    <p><strong>Ne jemi klasa 12/5, dhe jemi gati të bëjmë historinë tonë!</strong></p>
+
+
+  </div>
+
+</body>
+</html>
